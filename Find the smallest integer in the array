@@ -1,0 +1,15 @@
+class SmallestIntegerFinder {
+  findSmallestInt(arr) {
+    let smallestnumber;
+    for(let i=0; i<arr.length ; i++){
+      const number = arr[i];
+      if (i === 0){
+        smallestnumber = number ;
+      }
+      if (number < smallestnumber){
+        smallestnumber = number;
+      }
+    }
+    return smallestnumber;
+  }
+}
