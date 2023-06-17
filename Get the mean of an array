@@ -1,0 +1,10 @@
+function getAverage(marks){
+  let sum = 0;
+  const subjects = marks.length;
+  for ( let i=0; i<subjects ; i++){
+    sum = sum + marks[i];
+  }
+  let avg = Math.floor(sum/subjects);
+  return avg;
+
+}
