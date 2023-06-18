@@ -1,0 +1,6 @@
+function maps(x){
+const result = x.map((xitem)=>{
+  return xitem*2;
+})
+return result;
+}
