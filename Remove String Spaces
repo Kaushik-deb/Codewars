@@ -1,0 +1,10 @@
+function noSpace(x){
+  const arr = x.split(' ') ;
+  let newArray = [];
+  for(let i=0;i<arr.length;i++){
+    const trimmedString = arr[i].trim();
+    newArray.push(trimmedString);
+  }
+  const noSpaceString = newArray.join('')
+  return noSpaceString;
+}
