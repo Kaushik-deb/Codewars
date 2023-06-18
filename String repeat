@@ -1,0 +1,7 @@
+function repeatStr (n, s) {
+ let repeatString = '';
+  for(i=0; i<n; i++){
+    repeatString = repeatString + s ;
+  }
+  return repeatString;
+}
